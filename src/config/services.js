@@ -1,0 +1,2 @@
+export const FACEBOOK_CLIENT_ID = '694032301048739'
+export const FACEBOOK_CLIENT_SECRET = ''

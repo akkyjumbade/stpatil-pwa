@@ -1,0 +1,7 @@
+export const PRIMARY_COLOR = '#f26a1b'
+export const DEFAULT_COLOR = '#4b2a59'
+export const SECONDARY_COLOR = '#231773'
+export const DANGER_COLOR = '#f21b43'
+export const WARNING_COLOR = '#ecae00'
+export const SUCCESS_COLOR = '#3cb371'
+export const INFO_COLOR = '#03aebf'
