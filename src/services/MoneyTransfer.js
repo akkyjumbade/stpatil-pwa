@@ -13,7 +13,6 @@ export const saveBeneficiaryAsync = async (values) => {
                let verified = await verifyBeneficiaryAsync({
                   ...data,
                   // beneficiary_id: data,
-                  sender_id,
                   otp,
                })
                resolve({...data, ...verified })

@@ -1,15 +1,12 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import Page from '../components/Page';
 
-export default class About extends React.Component {
-   constructor(props) {
-      super(props);
-   }
-   render() {
-      return (
-         <View>
-            <Text>Home</Text>
-         </View>
-      );
-   }
-}
+const About = React.memo(props => {
+   return (
+      <Page>
+         <div>Home</div>
+      </Page>
+   );
+})
+
+export default About
